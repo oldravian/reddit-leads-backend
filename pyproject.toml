@@ -1,0 +1,19 @@
+[project]
+name = "ai-project-manager"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.21.0",
+    "alembic>=1.16.5",
+    "fastapi>=0.116.1",
+    "openai>=1.107.1",
+    "openai-agents>=0.3.0",
+    "praw>=7.8.1",
+    "pydantic>=2.7",
+    "python-dotenv>=1.1.1",
+    "sqlalchemy[asyncio]>=2.0.43",
+    "sqlite-web>=0.6.4",
+    "hypercorn==0.14.4",
+]
